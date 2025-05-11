@@ -6,8 +6,9 @@ h1 {
     margin-top: 0px;
 }
 
-.top-container {
-    background-color: #E4F9F5;
+/* 
+.top-container { 
+    background-color: #E4F9F5ye;
     border: 10px solid black;
     height: 200px;
     padding: 20px;
@@ -28,4 +29,40 @@ h1 {
     height: 200px;
     margin-left: 500px;
     width: 200px;
+}
+*/
+
+.top-container { 
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.middle-container {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    bottom: 150px;
+}
+
+.bottom-container {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.container {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    background-color: silver;
 }
